@@ -45,12 +45,12 @@ pwimg = "https://graph.org/file/8add8d382169e326f67e0-3bf38f92e52955e977.jpg"
 cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
-watermark_text = "🅢🅐🅚🅢🅗🅐🅜™"
-credit =("🅢🅐🅚🅢🅗🅐🅜™") 
-OWNER = int(os.environ.get("OWNER",5435086550))
+watermark_text = "𝐑𝐀𝐍𝐀 𝐉𝐈𝐈 ™"
+credit =("𝐑𝐀𝐍𝐀 𝐉𝐈𝐈 ™") 
+OWNER = int(os.environ.get("OWNER",5302639580))
 try: 
-    ADMINS=[5435086550] 
-    for x in (os.environ.get("ADMINS", "5435086550").split()):  
+    ADMINS=[5302639580] 
+    for x in (os.environ.get("ADMINS", "5302639580").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -66,12 +66,12 @@ api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NS
 token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
     
 # Define the owner's user ID
-OWNER_ID = 5435086550 # Replace with the actual owner's user ID
+OWNER_ID = 5302639580 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5435086550]
+SUDO_USERS = [5302639580]
 
-AUTH_CHANNEL = -1002422810226
+AUTH_CHANNEL = -1002043755584
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -140,9 +140,9 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📞 Cᴏɴᴛᴀᴄᴛ " ,url=f"https://t.me/botkaupdate"), InlineKeyboardButton("🥷 Oᴡɴᴇʀ ", url="https://t.me/XYZOFFICALBOT") ],
+                    InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐞𝐥 ❤️" ,url=f"https://t.me/OFFICIAL_RANA_JII"), InlineKeyboardButton("🥷 Oᴡɴᴇʀ ", url="https://t.me/XYZOFFICALBOT") ],
                     [
-                    InlineKeyboardButton("🏦 Cʜᴀɴɴᴇʟ " ,url="https://t.me/botkaupdate") ],                              
+                    InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭  📤" ,url="https://t.m/Rana_jii_27_bot") ],                              
                 ],           
 
       )
@@ -182,7 +182,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/apps - Support Links 🔗**\n\n"
         "➽ **/Help ⚔️For Help Use Command**\n\n"
         "➽ **/e2t - Edit txt file 📋**\n\n"
-        "➽ **/t2t - Txt to Txt file 📝**\n\n"
+        "➽ **/Ankit1 - Txt to Txt file 📝**\n\n"
         "➽ **/cookies - Upload cookies file 🗑️**\n\n"
         "➽ **/y2t - Create txt of yt playlist**\n\n"
         "➽ **/stop working process Command**\n\n"
@@ -236,9 +236,9 @@ async def start_command(bot: Client, message: Message):
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("📞 Cᴏɴᴛᴀᴄᴛ ", url="https://t.me/botkaupdate"), InlineKeyboardButton("🥷 Oᴡɴᴇʀ ", url="https://t.me/botkaupdate")],
+    [InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐞𝐥 ❤️", url="https://t.me/OFFICIAL_RANA_JII"), InlineKeyboardButton("🥷 Oᴡɴᴇʀ ", url="https://t.me/botkaupdate")],
    
-    [InlineKeyboardButton("🏦 Cʜᴀɴɴᴇʟ ", url="https://t.me/botkaupdate")],
+    [InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭  📤 ", url="https://t.me/Rana_jii_27_bot")],
 ])
 
 #=================== TELEGRAM ID INFORMATION =============
@@ -276,7 +276,7 @@ async def id_command(client, message: Message):
                
 
 
-@bot.on_message(filters.command('t2t'))
+@bot.on_message(filters.command('Ankit1'))
 async def text_to_txt(client, message: Message):
     user_id = str(message.from_user.id)
 
@@ -493,7 +493,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 👑 🇰 🇦 🇱 🇻 🇮 🇳  👑**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ 👑 𝐑𝐀𝐍𝐀 𝐉𝐈𝐈 👑**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -559,7 +559,7 @@ def save_to_file(videos, name):
 
 # --- Bot Command ---
 
-@bot.on_message(filters.command('y2t'))
+@bot.on_message(filters.command('Ankit2'))
 async def ytplaylist_to_txt(client: Client, message: Message):
     """
     Handles the extraction of YouTube playlist/channel videos and sends a .txt file.
@@ -583,7 +583,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 👑 🇰 🇦 🇱 🇻 🇮 🇳  👑"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ 👑 𝐑𝐀𝐍𝐀 𝐉𝐈𝐈  👑"
         )
         os.remove(file_name)
     else:
@@ -606,12 +606,12 @@ async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
         "`/apps` - Support links🔗\n\n"
-        "`/Txt` - Download and upload files (sudo)🎬\n\n"
+        "`/Ankit1` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🚒\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
-        "`/e2t` - Edit txt file📝\n\n"
-        "`/y2t` - Create txt of yt playlist (owner)🗃️\n\n"
+        "`/Ankit1` - Edit txt file📝\n\n"
+        "`/Ankit2` - Create txt of yt playlist (owner)🗃️\n\n"
         "`/sudo add` - Add user or group or channel (owner)🎊\n\n"
         "`/sudo remove` - Remove user or group or channel (owner)❌\n\n"
         "`/userlist` - List of sudo user or group or channel📜\n\n"
@@ -642,7 +642,7 @@ async def help_command(client: Client, msg: Message):
     )
 
     buttons = InlineKeyboardMarkup(
-        [[InlineKeyboardButton(" 📞 Cᴏɴᴛᴀᴄᴛ 🎉", url="https://t.me/botkaupdate")]]
+        [[InlineKeyboardButton(" 📞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭  📤 🎉", url="https://Rana_jii_27_bot")]]
     )
 
     await msg.reply_text(help_text, reply_markup=buttons)
