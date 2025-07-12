@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - WOLVES 🐺
-# Ask Doubt on telegram WOLVES 🐺
+# Don't Remove Credit Tg - rana 🐺
+# Ask Doubt on telegram rana🐺
 
 import logging
 from logging.handlers import RotatingFileHandler
